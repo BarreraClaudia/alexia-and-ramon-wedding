@@ -1,23 +1,51 @@
-# A&R Wedding
+# Alexia & Ramon Wedding Website 💍
 
-A simple and elegant wedding website.
+A static wedding website for Alexia Guerra and Ramon Loya's wedding. Built with plain HTML, CSS, and vanilla JavaScript — no frameworks or build tools required.
 
-<img src="assets/imgs/website-screenshot.png" width="500">
+![Website Screenshot](assets/imgs/website-screenshot.png)
 
-## Inform your guests with the schedule, dress code, hotel, registry, and FAQ's.
+## Pages
 
-<img src="assets/imgs/schedule-screenshot.png" width="500">
+| Page       | File                    | Description                                              |
+| ---------- | ----------------------- | -------------------------------------------------------- |
+| Home       | `index.html`            | Engagement video, wedding date, and live countdown timer |
+| Schedule   | `pages/schedule.html`   | Timeline of the day's events with venue addresses        |
+| Dress Code | `pages/dress-code.html` | All-black cocktail attire guidelines                     |
+| Hotel      | `pages/hotel.html`      | Room block info at Best Western Plus, Odessa TX          |
+| Gallery    | `pages/gallery.html`    | Photo gallery of the couple                              |
+| Registry   | `pages/registry.html`   | Link to Amazon wedding registry                          |
+| FAQ        | `pages/faq.html`        | Frequently asked questions (English & Spanish)           |
 
-## Show off your engagement photo shoot in the gallery!
+## Project Structure
 
-<img src="assets/imgs/gallery-screenshot.png" width="500">
+```
+alexia-and-ramon-wedding/
+├── index.html              # Home page
+├── styles.css              # Global stylesheet
+├── pages/
+│   ├── schedule.html
+│   ├── dress-code.html
+│   ├── hotel.html
+│   ├── gallery.html
+│   ├── registry.html
+│   └── faq.html
+├── js/
+│   ├── countdown.js        # Live countdown timer
+│   └── navigation.js       # Mobile hamburger menu toggle
+└── assets/
+    ├── imgs/               # Photos, icons, and screenshots
+    ├── videos/             # Engagement video
+    └── fonts/              # Prata and Pinyon Script web fonts
+```
 
-## Tech Stack
+## Local Development
 
-<!-- Badges from https://github.com/Ileriayo/markdown-badges -->
+No installation required. Just open `index.html` in a browser.
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+## Hosting
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+The site is hosted on Netlify using Netlify Drop.
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+## Credits
+
+**Icons:** [Freepik](https://www.freepik.com/) / Dragon Icons / Circlon Tech
